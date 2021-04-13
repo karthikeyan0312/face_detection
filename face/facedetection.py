@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 import tensorflow
-files=r"E:\my python\detection\haarcascades\haarcascade_frontalface_default.xml"
+files=#place the haarcascade file location
 fcascade=cv2.CascadeClassifier(files)
 cap = cv2.VideoCapture(0)
 cap.set(3,640) # set Width
