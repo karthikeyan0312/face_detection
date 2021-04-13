@@ -1,6 +1,4 @@
-import numpy as np
 import cv2
-import tensorflow
 files=#place the haarcascade file location
 fcascade=cv2.CascadeClassifier(files)
 cap = cv2.VideoCapture(0)
